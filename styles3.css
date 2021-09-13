@@ -1,0 +1,223 @@
+#topsection2 {
+  display: flex;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand-Regular.otf");
+}
+
+h1 {
+  font-family: Shrikhand;
+}
+
+h2 {
+  font-family: Shrikhand;
+}
+
+h3 {
+  font-family: Roboto;
+}
+
+p {
+  font-family: Roboto;
+}
+
+.fond {
+  width: 100%;
+  height: 185px;
+  position: absolute;
+}
+
+.titr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo1 {
+  width: 40%;
+  height: 30%;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+header p {
+  margin-left: 10px;
+}
+
+#entete i {
+  margin-right: 10px;
+  font-size: 150%;
+}
+
+#entete h2 {
+  margin-left: 10px;
+}
+
+.box1 h2 {
+  margin-left: 10px;
+}
+
+.box1 p {
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.titr i {
+  color: grey;
+}
+
+.box1 {
+  border: 1px;
+  border-radius: 25px 25px 1px 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  margin-top: 160px;
+  background-color: #eee;
+}
+
+.choix {
+  border: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 3%);
+  background-color: white;
+  height: 67px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.choix h3 {
+  font-size: 120%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.choix p {
+  margin-left: 11px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 100%;
+}
+
+.ligne {
+  margin-left: 12px;
+  font-size: 120%;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #99e2d0;
+}
+
+.imge {
+  position: absolute;
+  margin-left: 365px;
+  color: white;
+  border: 1px;
+  height: 100%;
+  width: 67px;
+  background-color: #99e2d0;
+  padding-bottom: 0px;
+  border-radius: 0px 15px 15px 1px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 3%);
+  transition: 0.8s;
+  right: -100px;
+}
+
+.euro {
+  font-weight: bold;
+  right: 20px;
+  transition-property: auto;
+  transition-duration: 0.8s;
+  position: absolute;
+}
+
+.choix:hover .imge {
+  transition: 0.8s;
+  right: 0px;
+}
+
+.choix:hover .euro {
+  transition: 0.8s;
+  right: 80px;
+}
+
+.pge p {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pge i {
+  color: white;
+  margin-right: 10px;
+}
+
+.logo2 {
+  width: 110px;
+  height: 20px;
+  margin-top: 15px;
+  filter: invert(1);
+  margin-bottom: 10px;
+}
+
+#bas {
+  background-color: #353535;
+  padding-left: 15px;
+  position: relative;
+  margin-top: 1410px;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 35px;
+  background-color: #ff79da;
+  background-image: linear-gradient(
+    to right bottom,
+    #ef74da,
+    #de6ddb,
+    #cd66db,
+    #b961dc,
+    #a45cdc
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  margin: 107px;
+  margin-top: 70px;
+  font-family: roboto;
+}

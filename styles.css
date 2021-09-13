@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "shrikhand";
+  src: url("Shrikhand-Regular.otf");
+}
+
+#topsection {
+  text-align: center;
+}
+
+.localisation {
+  display: flex;
+  background-color: #eaeaea;
+  text-align: center;
+  justify-content: center;
+}
+
+.localisation i {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.localisation p {
+  padding-left: 20px;
+}
+
+.logo1 {
+  width: 40%;
+  height: 30%;
+  margin: 9px;
+}
+
+button.button {
+  margin: 25px;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 35px;
+  background-color: #ff79da;
+  background-image: linear-gradient(
+    to right bottom,
+    #ef74da,
+    #de6ddb,
+    #cd66db,
+    #b961dc,
+    #a45cdc
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  font-family: roboto;
+}
+
+h1 {
+  font-family: roboto;
+  margin-top: 0;
+}
+
+p {
+  font-family: roboto;
+}
+
+.explorer {
+  background-color: #f6f6f6;
+}
+
+.etape {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 294px;
+  height: 60px;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.etape p {
+  margin: 0;
+  padding-right: 40px;
+  padding-left: 33px;
+}
+
+h3 {
+  margin: 0;
+  border: 1px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #9356dc;
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+  font-family: roboto;
+}
+
+.interne {
+  display: flex;
+
+  position: absolute;
+  margin-left: 10px;
+  border: 1px solid #f6f6f6;
+  width: 294px;
+  height: 60px;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+  justify-content: start;
+  padding-left: 55px;
+}
+
+.interne p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.interne i {
+  color: #7e7e7e;
+}
+
+.interne1 i {
+  color: #9356dc;
+}
+
+.interne1 {
+  display: flex;
+  position: absolute;
+  margin-left: 10px;
+  border: 1px solid #f5edff;
+  width: 294px;
+  height: 60px;
+  align-items: center;
+  background-color: #f5edff;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+  justify-content: start;
+  padding-left: 55px;
+}
+
+#fonctionnement {
+  text-align: center;
+}
+
+#fonctionnement h3 {
+  color: white;
+}
+
+#box {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.03);
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.fond2 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.text {
+  margin-right: 40px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text:hover i {
+  transition: 0.8s;
+  color: #9356dc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text i {
+  font-size: 170%;
+  color: #3d3d3d;
+}
+
+#bas {
+  background-color: #353535;
+  padding-left: 15px;
+}
+
+.logo2 {
+  filter: invert(1);
+}
+
+h2 {
+  color: black;
+  font-family: roboto;
+}
+
+.card p {
+  margin-top: 6px;
+}
+
+.logo2 {
+  width: 110px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.pge p {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.pge i {
+  color: white;
+  margin-right: 10px;
+}
+
+h4 {
+  color: black;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-family: roboto;
+}
+
+#fonctionnement {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itr p {
+  color: black;
+}
