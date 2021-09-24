@@ -4,12 +4,12 @@ body {
 
 @font-face {
   font-family: "roboto";
-  src: url("roboto-Regular.ttf");
+  src: url("police/roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "shrikhand";
-  src: url("Shrikhand-Regular.otf");
+  src: url("police/Shrikhand-Regular.otf");
 }
 
 #topsection {
@@ -227,6 +227,7 @@ a {
 #bas {
   background-color: #353535;
   padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 .logo2 {
@@ -275,4 +276,17 @@ h4 {
 
 .itr p {
   color: black;
+}
+
+#Restaurant {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 800px) {
+  #Restaurant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
 }
